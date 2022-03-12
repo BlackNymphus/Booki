@@ -1,6 +1,38 @@
 .sc-bg-grey {
     background-color: lightgrey;
     height: 200px;
-    width: auto;
+    width: 600px;
     margin: 10px 2px 10px 2px;
+    border-radius: 16px;
+    display: flex;
+
+}
+
+.accommodation-title {
+    
+}
+
+.accommodation-block {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.accommodation-article {
+    /* background-color: pink;
+    border-radius: 16px;
+    display: inline;
+    flex-wrap: wrap;
+     */
+
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.accommodation-article img {
+    /* height: 100px;
+    width: auto;
+    border-radius: 16px 16px 0 0; */
+    width: 30px;
+
 }

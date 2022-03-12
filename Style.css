@@ -64,8 +64,20 @@ html {
 
 /*SEARCH BAR*/
 
-.search{
+.search {
     display: flex;
+}
+
+
+.search i {
+    background-color: #f2f2f2;
+    border-radius: 16px 0 0 16px;
+    vertical-align: middle;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
 }
 
 .search-bar {
@@ -98,9 +110,8 @@ html {
 /*FILTERS*/
 
 .Filters {
-    display: inline-block;
-    margin-top: 32px;
-    flex-wrap: wrap-reverse;
+    display: flex;
+    align-items: baseline;
 }
 
 .FiltersTitle {
@@ -123,10 +134,10 @@ html {
     vertical-align: middle;
     display: flex;
     flex-wrap: nowrap;
+    margin-left: 10px;
 }
 
 .FiltersSearch i {
-    /* padding: 16px 19px !important; */
     background-color: #f2f2f2;
     border-radius: 16px 0 0 16px;
     vertical-align: middle;
@@ -136,8 +147,8 @@ html {
 }
 
 .FiltersSearch span {
-    margin-left: 10px;
     float: right;
+    margin-right: 10px;
 }
 
 .FiltersSearch .FiltersSearchWrapicon {
