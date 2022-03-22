@@ -1,0 +1,31 @@
+.footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    text-align: center;
+    width: 97%;
+    padding: 50px 0 50px 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.propos {
+    font-size: 14px;
+    text-align: left;
+    color: grey;
+    display: inline-block;
+}
+
+.nos-hebergements {
+    font-size: 14px;
+    text-align: left;
+    display: inline-block;
+    color: grey;
+}
+
+.assistance {
+    
+    font-size: 14px;
+    text-align: left;
+    color: grey;
+    display: inline-block;
+}
