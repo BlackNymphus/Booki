@@ -1,0 +1,65 @@
+/* ACTIVITY */
+
+.activity {
+    height: 30%;
+    margin: 50px 5px 50px 5px;
+    border-radius: 16px;
+    width: 150%;
+    padding: 20px;
+}
+
+.activity h1 {
+    font-size: 21px;
+}
+
+.activity-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.activity-card article {
+    background-color: pink;
+    border-radius: 16px;
+    width: 23%;
+    height: 420px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pomegues-frioul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pomegues {
+ background-color: pink;
+ height: 50%;
+ border-radius: 16px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.frioul {
+ background-color: pink;
+ height: 30%;
+ border-radius: 16px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.garde-longchamps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.garde {
+ background-color: black;
+ height: 35%;
+ border-radius: 16px;
+}
+
+.longchamps {
+ background-color: black;
+ height: 50%;
+ border-radius: 16px;
+}

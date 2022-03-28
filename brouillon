@@ -164,3 +164,21 @@
                 </div>
             </section>
         </div>
+
+
+
+
+
+        <div>
+            <img src="DW P2 - Ressources Booki FR/images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
+        </div>
+        <div class="hosting-text">
+            <p><strong>La Cannebière</strong></p>
+            <p>Nuit à partir de <strong>25€</strong></p>
+            <div class="star">
+                <i class="fas fa-solid fa-star"></i>
+                <i class="fas fa-solid fa-star"></i>
+                <i class="fas fa-solid fa-star"></i>
+                <i class="fas fa-solid fa-star"></i>
+                <i class="fas fa-duotone fa-star grey"></i>
+            </div>
