@@ -19,12 +19,27 @@
 }
 
 .activity-card article {
-    background-color: pink;
+    background-color: white;
     border-radius: 16px;
     width: 23%;
     height: 420px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.activity-image {
+    width: -webkit-fill-available;
+    border-radius: 16px 16px 0 0;
+    height: 365px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.text-activity {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+/* POMEGUES-FRIOUL */
 
 .pomegues-frioul {
     display: flex;
@@ -33,18 +48,46 @@
 }
 
 .pomegues {
- background-color: pink;
- height: 50%;
- border-radius: 16px;
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    height: 54%;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .frioul {
- background-color: pink;
- height: 30%;
- border-radius: 16px;
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    height: 36%;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.activity-image-pomegues {
+    width: -webkit-fill-available;
+    border-radius: 16px 16px 0 0;
+    height: 80%;
+    max-width: 100%;
+    text-align: center;
+}
+
+.activity-image-frioul {
+    width: -webkit-fill-available;
+    border-radius: 16px 16px 0 0;
+    height: 73%;
+    max-width: 100%;
+    text-align: center;
+}
+
+.text-pomegues-frioul {
+    margin: 10px 0 5px 10px;
+    font-size: 15px;
+}
+
+.text-frioul {
+    margin: 9px 0 0 10px;
+    font-size: 15px;
+}
+
+/* GARDE-LONGCHAMPS */
 
 .garde-longchamps {
     display: flex;
@@ -53,13 +96,42 @@
 }
 
 .garde {
- background-color: black;
- height: 35%;
- border-radius: 16px;
+    background-color: white;
+    height: 40%;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.activity-image-garde {
+    width: -webkit-fill-available;
+    border-radius: 16px 16px 0 0;
+    height: 72%;
+    max-width: 100%;
+    text-align: center;
+}
+
+.text-garde {
+    margin: 9px 0 0 10px;
+    font-size: 15px;
 }
 
 .longchamps {
- background-color: black;
- height: 50%;
- border-radius: 16px;
+    background-color: white;
+    height: 50%;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.activity-image-longchamps {
+    width: -webkit-fill-available;
+    border-radius: 16px 16px 0 0;
+    height: 78%;
+    max-width: 100%;
+    text-align: center;
+}
+
+.text-longchamps {
+    margin: 9px 0 0 10px;
+    font-size: 15px;
+}
+

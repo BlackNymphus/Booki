@@ -2,7 +2,7 @@
 
 .popular {
     background-color: #f2f2f2;
-    width: 25%;
+    width: 22%;
     border-radius: 16px;
     padding: 30px;
     margin-left: 15px;
@@ -16,8 +16,32 @@
 }
 
 .popular-article article {
+    display: flex;
     background-color: white;
     border-radius: 16px;
     height: 27%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.popular-image {
+    border-radius: 16px 0 0 16px;
+    max-height: 113px;
+    width: 117px;
+    text-align: center;
+    padding: 5px;
+}
+
+.text-popular {
+    margin-top: 10px;
+}
+
+.star-popular {
+    color: #0065FC;
+    font-size: 10px;
+    margin: 35px 0 0 0;
+}
+
+.grey {
+    color: grey;
+}
+
