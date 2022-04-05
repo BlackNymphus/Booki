@@ -1,184 +1,46 @@
-<div id="container">
-            <!-- HÉBERGEMENTS -->
-            <section class="sc-bg-grey hosting">
-                <div class="hosting-list">
-                    <h2 class="accommodation-title">Hébergements à Marseille</h2> 
-                    <div class="accommodation-block">
-                        <article class="accommodation-article">
-                            <a href="">
-                                <img src="DW P2 - Ressources Booki FR/images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
-                            </a>
-                            <p><strong>La Cannebière</strong></p>
-                            <p>Nuit à partir de <strong>25€</strong></p>
-                            <div class="star">
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-duotone fa-star grey"></i>
-                            </div>    
-                        </article>
-                        <article class="accommodation-article">
-                            <a href="">
-                                <img src="DW P2 - Ressources Booki FR/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
-                            </a>
-                            <p><strong>Hôtel du port</strong></p>
-                            <p>Nuit à partir de <strong>52€</strong></p>
-                            <div class="star">
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                            </div>
-                        </article>
-                        <article class="accommodation-article">
-                            <a href="">
-                                <img src="DW P2 - Ressources Booki FR/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
-                            </a>
-                            <p><strong>Hôtel les mouettes</strong></p>
-                            <p>Nuit à partir de <strong>76€</strong></p>
-                            <div class="star">
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-duotone fa-star grey"></i>
-                            </div>
-                        </article>
-                    </div>
-                    <div>
-                        <article class="accommodation-article">
-                            <a href="">
-                                <img src="DW P2 - Ressources Booki FR/images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
-                            </a>
-                            <p><strong>Hôtel de la mer</strong></p>
-                            <p>Nuit à partir de <strong>46€</strong></p>
-                            <div class="star">
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-duotone fa-star grey"></i>
-                                <i class="fas fa-duotone fa-star grey"></i>
-                            </div>
-                        </article>
-                        <article class="accommodation-article">
-                            <a href="">
-                                <img src="DW P2 - Ressources Booki FR/images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
-                            </a>
-                            <p><strong>Auberge Le Panier</strong></p>
-                            <p>Nuit à partir de <strong>23€</strong></p>
-                            <div class="star">
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-duotone fa-star grey"></i>
-                            </div>
-                        </article>
-                        <article class="accommodation-article">
-                            <a href="">
-                                <img src="DW P2 - Ressources Booki FR/images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
-                            </a>
-                            <p><strong>Hôtel chez Amina</strong></p>
-                            <p>Nuit à partir de <strong>96€</strong></p>
-                            <div class="star">
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                                <i class="fas fa-solid fa-star"></i>
-                            </div>
-                        </article>
-                    </div>
-                    <br>
-                    <a class="afficher" href="">Afficher plus</a>
-                </div>
-                <div class="hosting-popular"></div>
-                
-            </section>
-            <!-- POPULAIRES
-            <section class="aside">
-                <div class="aside-card">
-                    <h2 class="aside-title"><strong>Les plus populaires</strong></h2>
-                    <article>
-                                    
-                    </article>
-                </div>
-            </section> -->
-            
-            <!--ACTIVITÉS-->
-            <section class="sc-bg-grey-2">
-                <div>
-                  <h2 class="activity-title">Activités à Marseille</h2>  
-                </div>
-            
-                <div class="activity-block">
-                    <article class="activity-article">
-                        <a href="">
-                            <img src="DW P2 - Ressources Booki FR/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="">
-                        </a>
-                        <p><strong>Vieux port</strong></p>
-                    </article>
-                </div>
-
-                <div class="activity-block-2">
-                    <article class="activity-article-2">
-                        <a href="">
-                            <img src="DW P2 - Ressources Booki FR/images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
-                        </a>
-                        <p><strong>Fort de Pomègues</strong></p>  
-                    </article>
-
-                    <article class="activity-article-2">
-                        <a href="">
-                            <img src="DW P2 - Ressources Booki FR/images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
-                        </a>
-                        <p><strong>Iles du Frioul</strong></p>  
-                    </article>
-                </div>
-
-                <div class="activity-block-3">
-                    <article class="activity-article-3">
-                        <a href="">
-                            <img src="DW P2 - Ressources Booki FR/images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="">
-                        </a>
-                        <p><strong>Parc National des Calanques</strong></p>
-                    </article>
-                </div>
-
-                <div class="activity-block-4">
-                    <article class="activity-article-4">
-                        <a href="">
-                            <img src="DW P2 - Ressources Booki FR/images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                        </a>
-                        <p><strong>Notre-Dame-de-la-Garde</strong></p>  
-                    </article>
-
-                    <article class="activity-article-4">
-                        <a href="">
-                            <img src="DW P2 - Ressources Booki FR/images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
-                        </a>
-                        <p><strong>Parc Longchamp</strong></p>  
-                    </article>
-                </div>
-            </section>
+<div>
+    <navbar> 
+        <img class="logo" src="DW P2 - Ressources Booki FR/images/logo/Booki.png" alt="Logo Booki"> 
+        <div class="menu">
+            <a class="raccourcis" href="#">Hébergements</a>
+            <a class="raccourcis" href="#">Activités</a>
         </div>
+    </navbar>
 
+    <!-- TITRES -->
+    <div>
+        <h1 class="titre-principal">Trouvez votre hébergement pour des vacances de rêve</h1>
+        <h2 class="titre-secondaire">En plein centre ville ou en pleine nature</h2>
+    </div>
 
+    <!-- RECHERCHES -->
+    <section class="search">
+        <i class="fas fa-map-marker-alt"></i>
+        <input class="search-bar" type="search" placeholder="Marseille, France">
+        <button class="search-button">
+            <span class="search-button-text">Rechercher</span>
+        </button>
+    </section>
 
-
-
-        <div>
-            <img src="DW P2 - Ressources Booki FR/images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
+    <!-- FILTRES -->
+    <div class="Filters">
+        <h2 class="FiltersTitle">Filtres</h2>
+        <div class="FiltersSearch">
+            <i class="fas fa-money-bill-wave FiltersSearchWrapiconIcon" aria-hidden="true"></i>
+            <span class="FiltersSearchTitle">Économique</span>
         </div>
-        <div class="hosting-text">
-            <p><strong>La Cannebière</strong></p>
-            <p>Nuit à partir de <strong>25€</strong></p>
-            <div class="star">
-                <i class="fas fa-solid fa-star"></i>
-                <i class="fas fa-solid fa-star"></i>
-                <i class="fas fa-solid fa-star"></i>
-                <i class="fas fa-solid fa-star"></i>
-                <i class="fas fa-duotone fa-star grey"></i>
-            </div>
+        <div class="FiltersSearch">
+            <i class="fas fa-child FiltersSearchWrapiconIcon" aria-hidden="true"></i>
+            <span class="FiltersSearchTitle">Familial</span>
+        </div>
+        <div class="FiltersSearch">
+            <i class="fas fa-heart FiltersSearchWrapiconIcon" aria-hidden="true"></i>
+            <span class="FiltersSearchTitle">Romantique</span>
+        </div>
+        <div class="FiltersSearch">
+           <i class="fas fa-dog FiltersSearchWrapiconIcon" aria-hidden="true"></i>
+            <span class="FiltersSearchTitle">Animaux autorisés</span>
+        </div>
+    </div>
+</header>
+</div>

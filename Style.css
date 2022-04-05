@@ -3,11 +3,11 @@
 
 html {
     font-size: 16px;
-    margin-left: 10px;
-    margin-right: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
     box-sizing: border-box;
     font-family: 'raleway', sans-serif;
-    max-width: 920px;
+    max-width: 1280px;
 }
 
 .body {
@@ -26,23 +26,23 @@ html {
 
 /*NAVBAR*/
 
-.logo {
-    width: auto;
-    height: 45px;
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-top: 20px;
 }
 
-.menu {
-    display: inline-block;
-    position: absolute;
-    right: 30px;
-    padding: 35px;
+.logo {
+    width: auto;
+    height: 45px;
 }
 
 .raccourcis {
-    display: flexbox;
+    /*display: flexbox;*/
     text-decoration: none;
-    padding: 40px;
+    padding: 17px 40px 40px 40px;
+    color: black;
 }
 
 .raccourcis:hover {
@@ -113,7 +113,15 @@ html {
 
 .Filters {
     display: flex;
-    align-items: baseline;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 25px;
+}
+
+.filters-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .FiltersTitle {
@@ -126,16 +134,15 @@ html {
 .FiltersSearch {
     display: inline-block;
     align-items: center;
-    /* margin-right: 32px; */
+    margin-right: 32px;
     border: 2px solid #d9d9d9;
     border-radius: 32px;
     margin-bottom: 16px;
     transition-duration: 0.1s;
     font-weight: bold;
     /* padding: 1px 1px 1px 0; */
-    vertical-align: middle;
+    /* vertical-align: middle; */
     display: flex;
-    flex-wrap: nowrap;
     margin-left: 10px;
 }
 

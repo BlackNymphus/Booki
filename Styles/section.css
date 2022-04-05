@@ -1,18 +1,16 @@
 /* HEBERGEMENTS */
 
 .content {
-
     display: flex;
-    flex-direction: column;
-    height: 1500px;
+    flex-direction: column;;
 }
 
 .all-hosting {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
-    width: 150%;
+    padding: 20px 0 20px 0;
+    width: 100%;
 }
 
 .all-hosting h1 {
@@ -70,7 +68,6 @@
 .hosting-article div img {
     width: 260px;
     height: 60%;
-    object-fit: contain;
 }
 
 .image-article {
@@ -79,6 +76,7 @@
     background-color: white;
     text-align: center;
     padding: 5px;
+    object-fit: cover;
 }
 
 .star {
