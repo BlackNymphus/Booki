@@ -26,3 +26,22 @@
     color: grey;
     display: inline-block;
 }
+
+@media only screen and (max-width: 767px) {
+    .footer {
+        padding: 50px 50px 50px 20px;
+        flex-direction: column;
+    }
+    
+    .propos {
+        margin-bottom: 15px;
+    }
+    
+    .nos-hebergements {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+}

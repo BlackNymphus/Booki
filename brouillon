@@ -1,6 +1,6 @@
 <div>
     <navbar> 
-        <img class="logo" src="DW P2 - Ressources Booki FR/images/logo/Booki.png" alt="Logo Booki"> 
+        <img class="logo" src="images/logo/Booki.png" alt="Logo Booki"> 
         <div class="menu">
             <a class="raccourcis" href="#">Hébergements</a>
             <a class="raccourcis" href="#">Activités</a>
