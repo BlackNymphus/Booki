@@ -9,50 +9,73 @@
 }
 
 .popular-article {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 450px;
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(1, 10fr);
+    grid-gap: 1rem;
 }
 
 .popular-article article {
-    display: flex;
+    display: grid;
     background-color: white;
     border-radius: 16px;
-    height: 27%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 120px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    grid-template-columns: 40% 60%;
+    grid-auto-flow: column;
+    grid-auto-columns: 2fr;
+    grid-gap: 5px;
 }
 
 .popular-image {
     border-radius: 16px 0 0 16px;
-    max-height: 113px;
-    width: 117px;
     text-align: center;
     padding: 5px;
     object-fit: cover;
+    height: 110px;
+    width: 100%;
 }
 
 .text-popular {
-    margin-top: 10px;
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(35px, 1fr));
+}
+
+.text-popular p {
+    font-size: 12px;
+    display: inline;
+    justify-content: space-around;
+}
+
+.text-popular h3 {
+    margin: 5px 0 0 0;
 }
 
 .star-popular {
     color: #0065FC;
     font-size: 10px;
-    margin: 35px 0 0 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    padding-bottom: 10px;
 }
 
 .grey {
     color: grey;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .popular {
-        width: 80%;
+        width: 90%;
         margin-top: 30px;
         margin-left: 0;
     }
     
+.text-popular {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(20%, 1fr));
+}
+
     .star-popular {
         margin: 45px 0 0 0;
     }
@@ -62,7 +85,7 @@
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
     .popular {
         width: 93%;
         margin-top: 20px;
@@ -71,13 +94,14 @@
     }
 
     .popular-image {
-        width: 30%;
+        width: 100%;
     }
 
     .popular-article {
-        display: flex;
+        display: grid;
         flex-direction: row;
         height: auto;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .popular-article article {

@@ -25,6 +25,11 @@
     margin-right: 15px;
 }
 
+.hosting .text p {
+    margin: 0;
+    font-size: 13px;
+}
+
 .hosting a {
     text-decoration: none;
     font-weight: bold;
@@ -59,11 +64,11 @@
     font-size: 15px;
 }
 
-.text p {
+/* .text p {
     margin: 0;
     justify-content: flex-start;
     font-size: 13px;
-}
+} */
 
 .hosting-article div img {
     width: 260px;
@@ -110,7 +115,7 @@
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
     .all-hosting {
         flex-direction: column;
     }
