@@ -21,16 +21,24 @@
 .activity-card article {
     background-color: white;
     border-radius: 16px;
-    width: 23%;
+    width: 25%;
     height: 420px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.activity-card article.middle {
+  width: 18% !important;
+}
+
+.activity-card .middle img {
+  width: 100%;
 }
 
 .activity-image {
     width: -webkit-fill-available;
     border-radius: 16px 16px 0 0;
     height: 365px;
-    max-width: 100%;
+    width: 100%;
     text-align: center;
     object-fit: cover;
 }
@@ -130,7 +138,7 @@
     width: -webkit-fill-available;
     border-radius: 16px 16px 0 0;
     height: 78%;
-    max-width: 100%;
+    width: 100%;
     text-align: center;
     object-fit: cover;
 }
@@ -140,7 +148,45 @@
     font-size: 15px;
 }
 
-@media only screen and (max-width: 767px) {
+.activity-card .garde-longchamps {
+  width: 18% !important;
+}
+
+.activity-card .garde-longchamps img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+    .activity-card {
+        flex-direction: column;
+    }
+
+    .activity-card article {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .activity-card article.middle {
+      width: 100% !important;
+    }
+
+    .activity-card .garde-longchamps {
+      width: 100% !important;
+    }
+
+    /* POMEGUES-FRIOUL */
+
+    .frioul {
+        height: 42%;
+    }
+
+    .garde {
+        height: 46%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
     .activity-card {
         flex-direction: column;
     }
@@ -150,6 +196,13 @@
         margin-top: 15px;
     }
 
+    .activity-card article.middle {
+      width: 100% !important;
+    }
+
+    .activity-card .garde-longchamps {
+      width: 100% !important;
+    }
     /* POMEGUES-FRIOUL */
     
     .frioul {
